@@ -20,7 +20,7 @@ function TodoForm({ addTodo }) {
           onChange={(event) => setInputText(event.target.value)}
           placeholder="Додайте нове завдання"
         />
-        <Button type="submit">
+        <Button type="submit" title="додати">
           <span>Створити</span>
           <FiPlusCircle className={styles.addTodoIcon} />
         </Button>
