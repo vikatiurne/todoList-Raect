@@ -1,0 +1,8 @@
+.actionsButtons{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.notActiveButton {
+    visibility: hidden;
+  }

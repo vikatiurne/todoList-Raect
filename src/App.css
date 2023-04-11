@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.todoTitle {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 126px;
+}
+
+.todoTitle img {
+  margin-bottom: 10px;
+  width: 22px;
+  height: 36px;
+}
+.todoTitle h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #4ea8de;
+}
+.todoTitle h1 span {
+  color: #5e60ce;
+}

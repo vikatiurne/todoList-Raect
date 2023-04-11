@@ -1,0 +1,54 @@
+.todoFormContainer {
+  margin-bottom: 1.75em;
+  max-width: 736px;
+  width: 100%;
+}
+
+.todoFormContainer form {
+  padding: 10px;
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.todoFormContainer input {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #808080;
+  max-width: 380px;
+  width: 100%;
+  background: #262626;
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+}
+
+.todoFormContainer button {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f2f2f2;
+  background: #1e6f9f;
+}
+
+.todoFormContainer button:hover {
+  background-color: #8284fa;
+}
+.todoFormContainer input:focus{
+  color: white;
+}
+.todoFormContainer input,
+.todoFormContainer button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.addTodoIcon {
+  margin: -2px 5px;
+}

@@ -1,0 +1,23 @@
+.button {
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f2f2f2;
+  background: #1e6f9f;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #8284fa;
+}
+
+.button svg {
+  transition: transform 0.3s;
+}
+.button:hover svg {
+  transform: scale(1.5);
+  color: black;
+}

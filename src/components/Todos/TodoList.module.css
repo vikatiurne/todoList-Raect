@@ -1,0 +1,52 @@
+.todoListContainer {
+  padding: 10px;
+}
+.noTodo {
+  padding: 20px 60px;
+  border-top: 1px solid #333333;
+}
+.noTodo p {
+  font-size: 14px;
+  color: #808080;
+}
+.noTodoIcon {
+  margin-bottom: 16px;
+  color: #808080;
+  font-size: 80px;
+}
+.todoCounts {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.todoCounts p:first-child,
+.todoCounts p:last-child {
+  font-size: 14px;
+  font-weight: 700;
+}
+.todoCounts p:first-child {
+  color: #4ea8de;
+}
+.todoCounts p:last-child {
+  color: #8284fa;
+}
+.todoCounts p:first-child span,
+.todoCounts p:last-child span {
+  display: inline-block;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: #333333;
+  color: white;
+}
+.todoCounts p:first-child span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.todoCounts p:last-child span {
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+
